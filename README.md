@@ -1,6 +1,8 @@
 # ngstarter-systemjs-tasks
 SystemJS build extension for Angular 2 Starter
 
+[![npm version](https://badge.fury.io/js/ngstarter-systemjs-tasks.svg)](https://badge.fury.io/js/ngstarter-systemjs-tasks)
+
 ## Getting started
 1. Make sure you have `systemjs.conf.js` in the starter root
 
