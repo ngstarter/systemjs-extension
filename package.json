@@ -1,6 +1,6 @@
 {
   "name": "ngstarter-systemjs-tasks",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0-rc.1",
   "description": "SystemJS build extension for Angular 2 Starter",
   "main": "index.js",
   "scripts": {
