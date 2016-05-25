@@ -8,7 +8,7 @@ gulp.task('build-systemjs', function (done) {
 
     function buildSJS () {
         var builder = new Builder();
-        builder.loadConfig(config.root + 'systemjs.conf.js')
+        builder.loadConfig(config.src + 'systemjs.conf.js')
         .then(function() {
             var path = config.tmpApp;
             return builder
