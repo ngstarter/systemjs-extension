@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var runSequence = require('run-sequence');
 var Builder = require('systemjs-builder');
-var config = require('../../gulp.config')();
+var config = require('../../../gulp.config')();
 
 gulp.task('build-systemjs', function (done) {
     runSequence('tsc-app', buildSJS);

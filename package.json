@@ -1,6 +1,6 @@
 {
-  "name": "ngstarter-systemjs-tasks",
-  "version": "1.0.0-rc.1",
+  "name": "@ngstarter/systemjs-extension",
+  "version": "1.0.0-rc.2",
   "description": "SystemJS build extension for Angular 2 Starter",
   "main": "index.js",
   "scripts": {
@@ -8,22 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngstarter/ngstarter-systemjs-tasks.git"
+    "url": "git+https://github.com/ngstarter/systemjs-extension.git"
   },
   "keywords": [
     "angular2",
     "angular2starter",
     "systemjs",
-    "build"
+    "build",
+    "extension"
   ],
   "author": "Antony Budianto <antonybudianto@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ngstarter/ngstarter-systemjs-tasks/issues"
+    "url": "https://github.com/ngstarter/systemjs-extension/issues"
   },
-  "homepage": "https://github.com/ngstarter/ngstarter-systemjs-tasks#readme",
+  "homepage": "https://github.com/ngstarter/systemjs-extension#readme",
   "dependencies": {
-    "systemjs-builder": "^0.15.17"
+    "systemjs-builder": "^0.15.19"
   },
   "peerDependencies": {
     "gulp": "^3.9.1",

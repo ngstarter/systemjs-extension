@@ -1,14 +1,14 @@
-# ngstarter-systemjs-tasks
+# systemjs-extension
 SystemJS build extension for Angular 2 Starter
 
-[![npm version](https://badge.fury.io/js/ngstarter-systemjs-tasks.svg)](https://badge.fury.io/js/ngstarter-systemjs-tasks)
+[![npm version](https://badge.fury.io/js/ngstarter-systemjs-extension.svg)](https://badge.fury.io/js/ngstarter-systemjs-extension)
 
 ## Getting started
 1. Make sure you have `systemjs.conf.js` in the starter root
 
 2. Install the extension
     ```bash
-    npm install ngstarter-systemjs-tasks
+    npm install @ngstarter/systemjs-extension
     ```
 
 3. Open `gulp.config.js` in the starter and add the following builder config
@@ -26,7 +26,7 @@ SystemJS build extension for Angular 2 Starter
 
 4. Go to tasks/build.js in your starter, require the extension
     ```js
-    require('ngstarter-systemjs-tasks');
+    require('@ngstarter/systemjs-extension');
     ```
 
     and then set the second param to `build-systemjs`
