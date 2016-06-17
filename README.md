@@ -8,7 +8,7 @@ SystemJS build extension for Angular 2 Starter
 
 2. Install the extension
     ```bash
-    npm install @ngstarter/systemjs-extension
+    npm install @ngstarter/systemjs-extension --save
     ```
 
 3. Open `gulp.config.js` in the starter and add the following builder config
