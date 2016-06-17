@@ -26,7 +26,11 @@ SystemJS build extension for Angular 2 Starter
 
 4. Go to tasks/build.js in your starter, require the extension
     ```js
-    require('@ngstarter/systemjs-extension');
+    // Get the starter gulp config
+    var config = require('../config')();
+
+    // Load the extension with the config
+    require('@ngstarter/systemjs-extension')(config);
     ```
 
     and then set the second param to `build-systemjs`
