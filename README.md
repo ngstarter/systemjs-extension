@@ -42,5 +42,18 @@ SystemJS build extension for Angular 2 Starter
 
 5. Done! Try to build it!
 
+## API
+### Use own systemjs config
+```js
+// Get gulp config
+var config = require('../config')();
+
+// Get SystemJs config path
+var systemJsConfig = 'src/systemjs.config.js';
+
+// Load extension with config and SystemJsConfig
+require('@ngstarter/systemjs-extension')(config, systemJsConfig);
+```
+
 ## License
 MIT

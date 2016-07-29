@@ -1,6 +1,6 @@
 {
   "name": "@ngstarter/systemjs-extension",
-  "version": "1.0.0-rc.3",
+  "version": "1.0.0-rc.4",
   "description": "SystemJS build extension for Angular 2 Starter",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/ngstarter/systemjs-extension#readme",
   "dependencies": {
-    "systemjs-builder": "^0.15.23"
+    "systemjs-builder": "^0.15.25"
   },
   "peerDependencies": {
     "gulp": "^3.9.1",

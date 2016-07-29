@@ -1,14 +1,18 @@
 var gulp = require('gulp');
+var util = require('gulp-util');
 var runSequence = require('run-sequence');
 var Builder = require('systemjs-builder');
 
-function SystemJsExtension(config) {
+function SystemJsExtension(config, systemJsConfig) {
+    var defaultSystemJsConfig = config.src + 'systemjs.conf.js';
+    systemJsConfig = systemJsConfig || defaultSystemJsConfig;
+
     gulp.task('build-systemjs', function (done) {
         runSequence('tsc-app', buildSJS);
 
         function buildSJS () {
             var builder = new Builder();
-            builder.loadConfig(config.src + 'systemjs.conf.js')
+            builder.loadConfig(systemJsConfig)
             .then(function() {
                 var path = config.tmpApp;
                 return builder
@@ -18,11 +22,11 @@ function SystemJsExtension(config) {
                         config.systemJs.builder);
             })
             .then(function() {
-                console.log('Build complete');
+                util.log('Build complete');
                 done();
             })
             .catch(function (ex) {
-                console.log('error', ex);
+                util.log('Build failed', ex);
                 done('Build failed.');
             });
         }
