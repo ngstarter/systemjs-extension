@@ -1,6 +1,6 @@
 {
   "name": "@ngstarter/systemjs-extension",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "SystemJS build extension for Angular Starter",
   "main": "index.js",
   "scripts": {
