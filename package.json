@@ -1,7 +1,7 @@
 {
   "name": "@ngstarter/systemjs-extension",
-  "version": "1.0.0-rc.4",
-  "description": "SystemJS build extension for Angular 2 Starter",
+  "version": "2.0.0",
+  "description": "SystemJS build extension for Angular Starter",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/ngstarter/systemjs-extension.git"
   },
   "keywords": [
-    "angular2",
-    "angular2starter",
+    "angular",
+    "angular-starter",
     "systemjs",
     "build",
     "extension"
@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/ngstarter/systemjs-extension#readme",
   "dependencies": {
-    "systemjs-builder": "^0.15.25"
+    "systemjs-builder": "^0.16.4"
   },
   "peerDependencies": {
     "gulp": "^3.9.1",
-    "run-sequence": "^1.2.0"
+    "run-sequence": "^1.2.2"
   }
 }
