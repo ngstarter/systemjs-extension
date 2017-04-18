@@ -1,5 +1,5 @@
 # systemjs-extension
-SystemJS build extension for Angular 2 Starter
+SystemJS build extension for Angular Starter
 
 [![npm version](https://badge.fury.io/js/%40ngstarter%2Fsystemjs-extension.svg)](https://badge.fury.io/js/%40ngstarter%2Fsystemjs-extension)
 
